@@ -59,13 +59,7 @@
         <div class="container">
             <aside class="sidebar">
                 <div>
-                    <div class="sidebar-link"><a href="#1_introduction">Introduction</a></div>
-<div class="sidebar-link"><a href="#2_syntax">Syntax</a></div>
-<div class="sidebar-link"><a href="#3_built_in_functions">Built in functions</a></div>
-<div class="sidebar-link"><a href="#4_errors">Errors</a></div>
-<div class="sidebar-link"><a href="#5_examples">Examples</a></div>
-<div class="sidebar-link"><a href="#6_execution">Execution</a></div>
-
+                    <div class="sidebar-link"><a href="#1_introduction">Introduction</a></div><div class="sidebar-link"><a href="#2_syntax">Syntax</a></div><div class="sidebar-link"><a href="#3_built_in_functions">Built in functions</a></div><div class="sidebar-link"><a href="#4_errors">Errors</a></div><div class="sidebar-link"><a href="#5_examples">Examples</a></div><div class="sidebar-link"><a href="#6_execution">Execution</a></div>
                 </div>
             </aside>
             <main>
@@ -94,7 +88,7 @@
 <ol>
 <li>Install the official extension from the Visual Studio Code marketplace: <a href="https://vscode.com/extension">https://vscode.com/extension</a>.</li>
 <li>Create a new file with the <code>.daups</code> extension.</li>
-<li>Write your algorithm following the language’s syntax.</li>
+<li>Write your algorithm following the language's syntax.</li>
 <li>Click the <strong>▷</strong> button in the top bar to launch the interpreter.</li>
 </ol>
 <p>The environment automatically reports syntax, type, or runtime errors and offers contextual suggestions through autocompletion and tooltips.</p>
@@ -107,8 +101,7 @@
 <p>If you have a question, suggestion, or notice an issue in this documentation, you may open an issue here:
 <a href="https://github.com/yourusername/daups-extension/issues">https://github.com/yourusername/daups-extension/issues</a></p>
 </section>
-                <div class="separator"></div>
-<section id="2_syntax">
+                <div class="separator"></div><section id="2_syntax">
                 <h1>DAUPS Language Syntax</h1>
 <p>The DAUPS language is a pseudocode language with a rigid structure. It is designed to be easily readable and close to natural language, while enforcing a strict structure to guarantee correct execution.</p>
 <h2>General Structure</h2>
@@ -268,8 +261,7 @@
 <li>An error is raised if a variable is used without prior declaration.</li>
 </ul>
 </section>
-                <div class="separator"></div>
-<section id="3_built_in_functions">
+                <div class="separator"></div><section id="3_built_in_functions">
                 <h1>Built-in Functions of the DAUPS Language</h1>
 <p>The <strong>DAUPS</strong> language provides several <strong>built-in</strong> functions, accessible directly without redefinition. They are automatically loaded into the global symbol table at each execution.</p>
 <h2>List of Built-in Functions</h2>
@@ -407,8 +399,7 @@
 </li>
 </ul>
 </section>
-                <div class="separator"></div>
-<section id="4_errors">
+                <div class="separator"></div><section id="4_errors">
                 <h1>Error Handling in the DAUPS Language</h1>
 <p>The DAUPS interpreter is designed to detect and report common runtime errors. Through static and dynamic analysis, it provides explicit messages that facilitate debugging and understanding of code behavior.</p>
 <h2>Types of Detected Errors</h2>
@@ -454,7 +445,7 @@
 </tr>
 <tr>
 <td>User Input Error</td>
-<td>Input of a value that does not conform to the variable’s type</td>
+<td>Input of a value that does not conform to the variable's type</td>
 </tr>
 <tr>
 <td>Invalid Instruction</td>
@@ -543,8 +534,7 @@ Expected 2 arguments, got 1
 <li>Read error messages carefully; they are designed to be explicit.</li>
 </ul>
 </section>
-                <div class="separator"></div>
-<section id="5_examples">
+                <div class="separator"></div><section id="5_examples">
                 <h1>Examples DAUPS</h1>
 <h2>Example 1</h2>
 <pre class="shiki DAUPS Theme" style="background-color: #1e1e1e" tabindex="0"><code><span class="line"><span style="color: #569CD6; font-weight: bold">Algo</span></span>
@@ -811,10 +801,10 @@ Expected 2 arguments, got 1
 <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #9CDCFE">i</span><span style="color: #BBBBBB"> &lt;-- </span><span style="color: #B5CEA8">1</span><span style="color: #BBBBBB"> </span><span style="color: #6A9955; font-style: italic"># On a déjà saisi un entier - reste (n-1)</span></span>
 <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #9CDCFE">b</span><span style="color: #BBBBBB"> &lt;-- </span><span style="color: #9CDCFE">True</span></span>
 <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #C586C0; font-weight: bold">while</span><span style="color: #BBBBBB"> </span><span style="color: #FFD700">(</span><span style="color: #9CDCFE">i</span><span style="color: #BBBBBB"> &lt; </span><span style="color: #9CDCFE">n</span><span style="color: #FFD700">)</span></span>
-<span class="line"><span style="color: #BBBBBB">        </span><span style="color: #9CDCFE">p</span><span style="color: #BBBBBB"> &lt;-- </span><span style="color: #9CDCFE">c</span><span style="color: #BBBBBB"> </span><span style="color: #6A9955; font-style: italic"># on stocke l’entier précédemment saisi</span></span>
+<span class="line"><span style="color: #BBBBBB">        </span><span style="color: #9CDCFE">p</span><span style="color: #BBBBBB"> &lt;-- </span><span style="color: #9CDCFE">c</span><span style="color: #BBBBBB"> </span><span style="color: #6A9955; font-style: italic"># on stocke l&#39;entier précédemment saisi</span></span>
 <span class="line"><span style="color: #BBBBBB">        </span><span style="color: #DCDCAA">get</span><span style="color: #BBBBBB"> </span><span style="color: #9CDCFE">c</span></span>
 <span class="line"><span style="color: #BBBBBB">        </span><span style="color: #C586C0; font-weight: bold">if</span><span style="color: #BBBBBB"> </span><span style="color: #FFD700">(</span><span style="color: #9CDCFE">p</span><span style="color: #BBBBBB"> &gt; </span><span style="color: #9CDCFE">c</span><span style="color: #FFD700">)</span><span style="color: #BBBBBB"> </span><span style="color: #C586C0; font-weight: bold">then</span></span>
-<span class="line"><span style="color: #BBBBBB">            </span><span style="color: #6A9955; font-style: italic"># si l’entier est &lt; au précédent</span></span>
+<span class="line"><span style="color: #BBBBBB">            </span><span style="color: #6A9955; font-style: italic"># si l&#39;entier est &lt; au précédent</span></span>
 <span class="line"><span style="color: #BBBBBB">            </span><span style="color: #9CDCFE">b</span><span style="color: #BBBBBB"> &lt;-- </span><span style="color: #9CDCFE">False</span><span style="color: #BBBBBB"> </span><span style="color: #6A9955; font-style: italic"># Valeurs non-ordonnées de manière croissante.</span></span>
 <span class="line"><span style="color: #BBBBBB">        </span><span style="color: #9CDCFE">i</span><span style="color: #BBBBBB"> &lt;-- </span><span style="color: #9CDCFE">i</span><span style="color: #BBBBBB"> + </span><span style="color: #B5CEA8">1</span></span>
 <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #C586C0; font-weight: bold">if</span><span style="color: #BBBBBB"> </span><span style="color: #FFD700">(</span><span style="color: #9CDCFE">b</span><span style="color: #BBBBBB"> == </span><span style="color: #9CDCFE">True</span><span style="color: #FFD700">)</span><span style="color: #BBBBBB"> </span><span style="color: #C586C0; font-weight: bold">then</span></span>
@@ -853,7 +843,7 @@ Expected 2 arguments, got 1
 <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #C586C0; font-weight: bold">if</span><span style="color: #BBBBBB"> </span><span style="color: #FFD700">(</span><span style="color: #9CDCFE">si</span><span style="color: #BBBBBB"> == </span><span style="color: #9CDCFE">sp</span><span style="color: #FFD700">)</span><span style="color: #BBBBBB"> </span><span style="color: #C586C0; font-weight: bold">then</span></span>
 <span class="line"><span style="color: #BBBBBB">        </span><span style="color: #DCDCAA">print</span><span style="color: #BBBBBB"> </span><span style="color: #CE9178">&quot;La somme des nombres pairs est égale à la somme des nombres impairs.&quot;</span></span>
 <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #C586C0; font-weight: bold">else</span></span>
-<span class="line"><span style="color: #BBBBBB">        </span><span style="color: #DCDCAA">print</span><span style="color: #BBBBBB"> </span><span style="color: #CE9178">&quot;La somme des nombres pairs n’est pas égale à la somme des nombres impairs.&quot;</span></span>
+<span class="line"><span style="color: #BBBBBB">        </span><span style="color: #DCDCAA">print</span><span style="color: #BBBBBB"> </span><span style="color: #CE9178">&quot;La somme des nombres pairs n&#39;est pas égale à la somme des nombres impairs.&quot;</span></span>
 <span class="line"><span style="color: #569CD6; font-weight: bold">End</span></span>
 <span class="line"></span>
 <span class="line"></span></code></pre>
@@ -1143,8 +1133,7 @@ Expected 2 arguments, got 1
 <span class="line"><span style="color: #569CD6; font-weight: bold">End</span></span>
 <span class="line"></span></code></pre>
 </section>
-                <div class="separator"></div>
-<section id="6_execution">
+                <div class="separator"></div><section id="6_execution">
                 <h1>Execution Flow in the DAUPS Language</h1>
 <p>The DAUPS interpreter executes a program following a rigid, statically-typed structure in which blocks, variables, functions, and instructions are validated both statically and dynamically.</p>
 <p>This chapter describes the complete execution pipeline, from loading a <code>.daups</code> file to producing the results.</p>
@@ -1181,7 +1170,7 @@ Expected 2 arguments, got 1
 <p>Declared variables and defined functions are recorded in a symbol table:</p>
 <ul>
 <li>Globally for the entire program</li>
-<li>Locally for each function’s scope</li>
+<li>Locally for each function's scope</li>
 </ul>
 <p>Each symbol is associated with:</p>
 <ul>
@@ -1249,7 +1238,6 @@ Expected 2 arguments, got 1
 </ul>
 </section>
                 <div class="separator"></div>
-
             </main>
         </div>
     </div>
@@ -1273,87 +1261,10 @@ Expected 2 arguments, got 1
         // Menu téléchargement
         const downloadBtn    = document.getElementById('download-btn');
         const downloadMenu = document.createElement('div');
-        const downloadMenuHTML = `<div><a href="#" onclick="(async function(){
-            try {
-                const response = await fetch('pdf/EN.pdf');
-                if (!response.ok) throw new Error('Fichier introuvable');
-                const blob = await response.blob();
-                const url = window.URL.createObjectURL(blob);
-
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = 'EN.pdf';
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-
-                window.URL.revokeObjectURL(url);
-            } catch (e) {
-                console.error('Erreur lors du téléchargement du PDF:', e);
-                alert("Le fichier PDF n'a pas pu être téléchargé.");
-            }
-        })(); return false;">PDF (<i>EN</i>)</a></div><div><a href="#" onclick="(async function(){
-            try {
-                const response = await fetch('pdf/FR.pdf');
-                if (!response.ok) throw new Error('Fichier introuvable');
-                const blob = await response.blob();
-                const url = window.URL.createObjectURL(blob);
-
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = 'FR.pdf';
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-
-                window.URL.revokeObjectURL(url);
-            } catch (e) {
-                console.error('Erreur lors du téléchargement du PDF:', e);
-                alert("Le fichier PDF n'a pas pu être téléchargé.");
-            }
-        })(); return false;">PDF (<i>FR</i>)</a></div>`;
+        const downloadMenuHTML = "<div><a href=\"https://myextension.github.com\" target=\"_blank\">Extension</a></div>\n<div><a href=\"#\" class=\"pdf-link\" data-lang=\"EN\">PDF (<i>EN</i>)</a></div><div><a href=\"#\" class=\"pdf-link\" data-lang=\"FR\">PDF (<i>FR</i>)</a></div>";
         downloadMenu.classList.add('download-menu');
         document.body.appendChild(downloadMenu);
-        downloadMenu.innerHTML = '<div><a href="https://myextension.github.com" target="_blank">Extension</a></div>' + `
-<div><a href="#" onclick="(async function(){
-            try {
-                const response = await fetch('pdf/EN.pdf');
-                if (!response.ok) throw new Error('Fichier introuvable');
-                const blob = await response.blob();
-                const url = window.URL.createObjectURL(blob);
-
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = 'EN.pdf';
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-
-                window.URL.revokeObjectURL(url);
-            } catch (e) {
-                console.error('Erreur lors du téléchargement du PDF:', e);
-                alert("Le fichier PDF n'a pas pu être téléchargé.");
-            }
-        })(); return false;">PDF (<i>EN</i>)</a></div><div><a href="#" onclick="(async function(){
-            try {
-                const response = await fetch('pdf/FR.pdf');
-                if (!response.ok) throw new Error('Fichier introuvable');
-                const blob = await response.blob();
-                const url = window.URL.createObjectURL(blob);
-
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = 'FR.pdf';
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-
-                window.URL.revokeObjectURL(url);
-            } catch (e) {
-                console.error('Erreur lors du téléchargement du PDF:', e);
-                alert("Le fichier PDF n'a pas pu être téléchargé.");
-            }
-        })(); return false;">PDF (<i>FR</i>)</a></div>`;
+        downloadMenu.innerHTML = downloadMenuHTML;
         downloadBtn.addEventListener('click', () => {
             const rect = downloadBtn.getBoundingClientRect();
             downloadMenu.style.display = 'block';
@@ -1364,6 +1275,30 @@ Expected 2 arguments, got 1
         document.addEventListener('click', e => {
             if (!downloadBtn.contains(e.target) && !downloadMenu.contains(e.target))
                 downloadMenu.style.display = 'none';
+        });
+
+        document.querySelectorAll('.pdf-link').forEach(link => {
+            link.addEventListener('click', async (e) => {
+                e.preventDefault();
+                const lang = link.dataset.lang;
+                try {
+                    const response = await fetch(`pdf/${lang}.pdf`);
+                    if (!response.ok) throw new Error('Fichier introuvable');
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `${lang}.pdf`;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    window.URL.revokeObjectURL(url);
+                } catch (e) {
+                    console.error('Erreur lors du téléchargement du PDF:', e);
+                    alert("Le fichier PDF n'a pas pu être téléchargé.");
+                }
+            });
         });
 
         // Sidebar & toggle
