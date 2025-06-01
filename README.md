@@ -7,4 +7,4 @@ This repository hosts the official documentation website for the **DAUPS program
 🧩 VS Code extension: [github.com/PerseusShade/DAUPS-ext](https://github.com/PerseusShade/DAUPS-ext)
 
 Visit the live documentation here:
-🌐 [perseusshade.github.io/DAUPS-docs](https://perseusshade.github.io/DAUPS-docs)
+🌐 [perseusshade.github.io/DAUPS-docs](https://perseusshade.github.io/DAUPS-docs/EN.html)
