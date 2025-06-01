@@ -185,6 +185,9 @@ section {
 }
 
 .lang-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     margin-right: 40px;
     background: var(--main-bg);
     color: var(--text-color);
