@@ -377,6 +377,42 @@ main {
         scrollbar-color 0.5s ease;
 }
 
+.license-section {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    font-style: italic;
+    color: #555;
+    font-size: 0.8em;
+}
+
+.license-section h1,
+.license-section h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.license-section p {
+    line-height: 1.5;
+}
+
+html.dark .license-section {
+    background-color: #1e1e1e;
+    color: #ccc;
+    border-top: 1px solid #444;
+}
+
+html.dark .license-section h1,
+html.dark .license-section h2 {
+    color: #eee;
+}
+
+html.dark .license-section p {
+    line-height: 1.5;
+    color: #bbb;
+}
+
 table {
     border-collapse: collapse;
 }

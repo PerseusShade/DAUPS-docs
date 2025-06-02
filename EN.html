@@ -2,6 +2,7 @@
 <html lang="EN">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Documentation DAUPS (EN)</title>
     <link rel="icon" href="logo.png" type="image/svg+xml">
     <link rel="stylesheet" href="style.css">
@@ -59,12 +60,13 @@
         <div class="container">
             <aside class="sidebar">
                 <div>
-                    <div class="sidebar-link"><a href="#1_introduction">Introduction</a></div><div class="sidebar-link"><a href="#2_syntax">Syntax</a></div><div class="sidebar-link"><a href="#3_built_in_functions">Built in functions</a></div><div class="sidebar-link"><a href="#4_errors">Errors</a></div><div class="sidebar-link"><a href="#5_examples">Examples</a></div><div class="sidebar-link"><a href="#6_execution">Execution</a></div>
+                    <div class="sidebar-link"><a href="#1_introduction">Introduction</a></div><div class="sidebar-link"><a href="#2_syntax">Syntax</a></div><div class="sidebar-link"><a href="#3_built_in_functions">Built in functions</a></div><div class="sidebar-link"><a href="#4_errors">Errors</a></div><div class="sidebar-link"><a href="#5_examples">Examples</a></div><div class="sidebar-link"><a href="#6_execution">Execution</a></div><div class="sidebar-link"><a href="#7_credits">Credits</a></div>
                 </div>
             </aside>
             <main>
-                <section id="1_introduction">
-                <h1>Introduction to the DAUPS Language</h1>
+                
+                <section id="1_introduction" class="">
+                    <h1>Introduction to the DAUPS Language</h1>
 <p><strong>DAUPS</strong> is an educational programming language designed to promote structured learning of algorithmic thinking. It allows users to write, test, and execute algorithms using a strict, statically-typed syntax aligned with academic standards.</p>
 <p>Developed in an academic context, DAUPS is primarily intended for beginner-level computer science students, providing a natural bridge between theoretical algorithms and practical programming.</p>
 <h2>Language Objectives</h2>
@@ -100,9 +102,11 @@
 </ul>
 <p>If you have a question, suggestion, or notice an issue in this documentation, you may open an issue here:
 <a href="https://github.com/PerseusShade/DAUPS-docs/issues" target="_blank">https://github.com/PerseusShade/DAUPS-docs/issues</a></p>
-</section>
-                <div class="separator"></div><section id="2_syntax">
-                <h1>DAUPS Language Syntax</h1>
+
+                </section>
+            <div class="separator"></div>
+                <section id="2_syntax" class="">
+                    <h1>DAUPS Language Syntax</h1>
 <p>The DAUPS language is a pseudocode language with a rigid structure. It is designed to be easily readable and close to natural language, while enforcing a strict structure to guarantee correct execution.</p>
 <h2>General Structure</h2>
 <p>A program begins with the keyword <code>Algo</code>, optionally followed by variable declarations. The main block is delimited by the keywords <code>Begin</code> and <code>End</code>.</p>
@@ -260,9 +264,11 @@
 <li>Functions may call one another or be used within the main block.</li>
 <li>An error is raised if a variable is used without prior declaration.</li>
 </ul>
-</section>
-                <div class="separator"></div><section id="3_built_in_functions">
-                <h1>Built-in Functions of the DAUPS Language</h1>
+
+                </section>
+            <div class="separator"></div>
+                <section id="3_built_in_functions" class="">
+                    <h1>Built-in Functions of the DAUPS Language</h1>
 <p>The <strong>DAUPS</strong> language provides several <strong>built-in</strong> functions, accessible directly without redefinition. They are automatically loaded into the global symbol table at each execution.</p>
 <h2>List of Built-in Functions</h2>
 <table>
@@ -398,9 +404,11 @@
 <span class="line"></span></code></pre>
 </li>
 </ul>
-</section>
-                <div class="separator"></div><section id="4_errors">
-                <h1>Error Handling in the DAUPS Language</h1>
+
+                </section>
+            <div class="separator"></div>
+                <section id="4_errors" class="">
+                    <h1>Error Handling in the DAUPS Language</h1>
 <p>The DAUPS interpreter is designed to detect and report common runtime errors. Through static and dynamic analysis, it provides explicit messages that facilitate debugging and understanding of code behavior.</p>
 <h2>Types of Detected Errors</h2>
 <table>
@@ -533,9 +541,11 @@ Expected 2 arguments, got 1
 <li>Verify array dimensions before any index access.</li>
 <li>Read error messages carefully; they are designed to be explicit.</li>
 </ul>
-</section>
-                <div class="separator"></div><section id="5_examples">
-                <h1>Examples DAUPS</h1>
+
+                </section>
+            <div class="separator"></div>
+                <section id="5_examples" class="">
+                    <h1>Examples DAUPS</h1>
 <h2>Example 1</h2>
 <pre class="shiki DAUPS Theme" style="background-color: #1e1e1e" tabindex="0"><code><span class="line"><span style="color: #569CD6; font-weight: bold">Algo</span></span>
 <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #9CDCFE">x</span><span style="color: #BBBBBB"> : </span><span style="color: #4EC9B0; font-weight: bold">int</span></span>
@@ -1132,9 +1142,11 @@ Expected 2 arguments, got 1
 <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #DCDCAA">print</span><span style="color: #BBBBBB"> </span><span style="color: #CE9178">&quot;le nombre maximum est &quot;</span><span style="color: #BBBBBB">, </span><span style="color: #9CDCFE">grand</span><span style="color: #BBBBBB">, </span><span style="color: #CE9178">&quot;Saut-de-ligne&quot;</span></span>
 <span class="line"><span style="color: #569CD6; font-weight: bold">End</span></span>
 <span class="line"></span></code></pre>
-</section>
-                <div class="separator"></div><section id="6_execution">
-                <h1>Execution Flow in the DAUPS Language</h1>
+
+                </section>
+            <div class="separator"></div>
+                <section id="6_execution" class="">
+                    <h1>Execution Flow in the DAUPS Language</h1>
 <p>The DAUPS interpreter executes a program following a rigid, statically-typed structure in which blocks, variables, functions, and instructions are validated both statically and dynamically.</p>
 <p>This chapter describes the complete execution pipeline, from loading a <code>.daups</code> file to producing the results.</p>
 <h2>Main Execution Steps</h2>
@@ -1236,8 +1248,19 @@ Expected 2 arguments, got 1
 <li>Error checking is systematic</li>
 <li>Functions and arrays are managed dynamically</li>
 </ul>
-</section>
-                <div class="separator"></div>
+
+                </section>
+            <div class="separator"></div>
+                <section id="7_credits" class="license-section">
+                    <h1>Made by PerseusShade</h1>
+<p>MIT License</p>
+<p>Copyright (c) 2025 PerseusShade</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction—including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software—and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED—including but not limited to the warranties of MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+                </section>
+            
             </main>
         </div>
     </div>
@@ -1261,7 +1284,7 @@ Expected 2 arguments, got 1
         // Menu téléchargement
         const downloadBtn    = document.getElementById('download-btn');
         const downloadMenu = document.createElement('div');
-        const downloadMenuHTML = "<div><a href=\"https://marketplace.visualstudio.com/items?itemName=PerseusShade.daups\" target=\"_blank\">Extension</a></div>\n<div><a href=\"#\" class=\"pdf-link\" data-lang=\"EN\">PDF (<i>EN</i>)</a></div><div><a href=\"#\" class=\"pdf-link\" data-lang=\"FR\">PDF (<i>FR</i>)</a></div>";
+        const downloadMenuHTML = "<div><a href=\"https://marketplace.visualstudio.com/items?itemName=PerseusShade.daups\" target=\"_blank\">Extension</a></div>\n<div>\n                <a href=\"#\"\n                   class=\"pdf-link\"\n                   data-lang=\"EN\"\n                   data-file=\"DAUPS_Documentation_EN.pdf\">\n                    PDF (<i>EN</i>)\n                </a>\n            </div><div>\n                <a href=\"#\"\n                   class=\"pdf-link\"\n                   data-lang=\"FR\"\n                   data-file=\"DAUPS_Documentation_FR.pdf\">\n                    PDF (<i>FR</i>)\n                </a>\n            </div>";
         downloadMenu.classList.add('download-menu');
         document.body.appendChild(downloadMenu);
         downloadMenu.innerHTML = downloadMenuHTML;
@@ -1281,15 +1304,16 @@ Expected 2 arguments, got 1
             link.addEventListener('click', async (e) => {
                 e.preventDefault();
                 const lang = link.dataset.lang;
+                const fileName = link.dataset.file;
                 try {
-                    const response = await fetch(`pdf/${lang}.pdf`);
+                    const response = await fetch(`pdf/${fileName}`);
                     if (!response.ok) throw new Error('Fichier introuvable');
                     const blob = await response.blob();
                     const url = window.URL.createObjectURL(blob);
 
                     const a = document.createElement('a');
                     a.href = url;
-                    a.download = `${lang}.pdf`;
+                    a.download = fileName;
                     document.body.appendChild(a);
                     a.click();
                     document.body.removeChild(a);
